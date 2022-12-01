@@ -1,0 +1,138 @@
+:root {
+  --accent-color: #2196F3;
+  --title-text-color: #212121;
+  --text-paragraph-color: #757575;
+  --main-color: #FFFFFF;
+  --second-color: #2F303A;
+  --footer-color: rgba(255, 255, 255, 0.6);
+  --color-button: #F5F4FA;
+  --text-logo: 'Raleway',
+    sans-serif;
+  --main-text: 'Roboto',
+    sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-seerif;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--text-paragraph-color)
+}
+
+.box-contact,
+.position-list,
+.priorities-text {
+  line-height: 1.1875;
+}
+
+/* --------відміна верхніх відступів---------- */
+.field-none {
+  margin-top: 0;
+  Padding: 0
+}
+
+/* ------------відміна стилю ul -------------*/
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* ------відміна стилю посилань -----*/
+.style-none {
+  text-decoration: none;
+  color: inherit;
+}
+
+.heddin {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+
+.footer-web,
+.footer-studio {
+  color: var(--accent-color);
+  font-family:var(--text-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
+    letter-spacing: 0.03em;
+}
+
+.header-Studio,
+.footer-studio {
+  color: var(--title-text-color);
+}
+
+.header-link {
+  color: var(--title-text-color);
+}
+
+.header-link,
+.header-contaktes {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+
+}
+
+.header-contaktes {
+  color: var(--text-paragraph-color);
+}
+
+/* -----------ховер фокус----------- */
+.list .header-link:hover,
+.list .header-contaktes:hover,
+.box-contact:hover {
+  color: var(--accent-color);
+}
+
+.list .header-link:focus,
+.list .header-contaktes:focus {
+  background-color: var(--main-color);
+}
+
+.background {
+  background-color: var(--second-color);
+}
+
+.box-contact:focus {
+  background-color: var(--color-button);
+}
+
+.order-button:hover {
+  color: var(--accent-color);
+  background-color: #FFFFFF;
+}
+
+/*  -------------маін--------  */
+.order-text {
+  background-color: var(--second-color);
+  color: var(--main-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3636;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.order-button {
+  color: var(--main-color);
+  background-color: var(--accent-color);
+  font-family: 'Roboto', sans-seerif;
+  cursor: pointer;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border: 0;
+  padding: 0;
+}

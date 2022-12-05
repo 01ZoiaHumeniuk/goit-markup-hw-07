@@ -574,9 +574,9 @@ body {
   position: absolute;
   top: 0;
   height: 100%;
-  font: weight 400px;
+  font-weight: 400px;
   font-size: 18px;
-  Line-height: 1.5555;
+  line-height: 1.5555;
   letter-spacing: 0.03em;
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);
@@ -1392,9 +1392,9 @@ body {
   position: absolute;
   top: 0;
   height: 100%;
-  font: weight 400px;
+  font-weight: 400px;
   font-size: 18px;
-  Line-height: 1.5555;
+  line-height: 1.5555;
   letter-spacing: 0.03em;
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);

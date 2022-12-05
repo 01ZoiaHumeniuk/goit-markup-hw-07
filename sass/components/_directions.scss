@@ -1,0 +1,44 @@
+.bgc {
+  background-color: $color-button;
+}
+
+.link {
+  color: $title-text-color;
+  @include font(700, 36px, 1.16, 0.03em, center);
+  margin-bottom: 50px;
+  padding-top: 0;
+}
+
+.link-list {
+  width: calc((100% - 60px)/3);
+
+}
+
+/*---------фон на img-------------*/
+.text {
+  @include font(700, 14px, 0.85, 0.03em, center);
+  white-space: nowrap;
+  padding: 27px 0px;
+}
+
+.position-link {
+  position: relative;
+}
+
+.link-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 70px;
+  color: $main-color;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.item {
+  column-gap: 30px
+}
+.no-gap {
+  display: block;
+  max-width: 100%;
+}

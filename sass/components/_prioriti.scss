@@ -1,0 +1,45 @@
+.priority-flex {
+  width: calc((100% - 90px)/4);
+}
+
+.priority-flex li:last-child {
+  margin: 0;
+}
+
+.priority-flexnt:nth-child(4n) {
+  margin-right: 0;
+}
+
+.priority-flexnt:nth-child(-n+4) {
+  margin-bottom: 0;
+}
+
+.priorities-flex {
+  display: flex;
+  gap: 30px;
+}
+
+.icon-priorities {
+
+  height: 120px;
+  @include centered-flex();
+  background-color: $color-button;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.priorities-title {
+  color: $title-text-color;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.priorities-text {
+  color:$text-paragraph-color;
+  font-size: 14px;
+  line-height: 1.7142;
+}
+
+

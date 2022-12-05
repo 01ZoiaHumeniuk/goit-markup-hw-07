@@ -22,7 +22,7 @@
 .icon-priorities {
 
   height: 120px;
-  @include centered-flex(flex);
+  @include centered-flex();
   background-color: $color-button;
   border-radius: 4px;
   margin-bottom: 30px;

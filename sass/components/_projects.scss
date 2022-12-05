@@ -6,6 +6,7 @@
 
 .list-projects {
   width: calc((100% - 60px)/3);
+
 }
 
 .shadow {
@@ -41,9 +42,9 @@
   position: absolute;
   top: 0;
   height: 100%;
-  font-weight: 400px;
+  font: weight 400px;
   font-size: 18px;
-  line-height: 1.5555;
+  Line-height: 1.5555;
   letter-spacing: 0.03em;
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);

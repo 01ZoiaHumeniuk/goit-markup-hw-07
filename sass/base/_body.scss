@@ -5,13 +5,13 @@ body {
   color: $text-paragraph-color;
   margin: 0;
 }
-.container {
+%container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
-.section {
+%section {
   padding-top: 94px;
   padding-bottom: 94px;
 }

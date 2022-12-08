@@ -1,4 +1,4 @@
-:root{
+/* :root{
   --background:#188CE8;
   --accent-color:#2196F3 ;
   --title-text-color:#212121;
@@ -54,7 +54,7 @@ body{
   word-wrap: normal !important;
 }
 /*---------flex-------*/
-.container {
+/*.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -70,18 +70,18 @@ body{
   line-height:1.1875;
 }
 /* --------відміна верхніх відступів---------- */
-.field-none{
+/*.field-none{
   margin-top: 0;
   Padding: 0;
 }
 /* ------------відміна стилю ul -------------*/
-.list{
+/*.list{
   list-style: none;
     padding: 0;
     margin: 0;
 }
 /* ------відміна стилю посилань -----*/
-.style-none
+/*.style-none
 {
 text-decoration: none;
   color: inherit;
@@ -167,7 +167,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 /* -----------ховер фокус----------- */
-.list .menu__link:hover,
+/*list .menu__link:hover,
 .list .header-contaktes:hover, 
 .box-contact:hover{
   color: var(--accent-color); 
@@ -180,7 +180,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
               /*-ok--*/
 /*додати до героя*/
-.background{
+/*.background{
     background-color: var(--second-color);
     padding-bottom: 200px;
     padding-top: 200px;
@@ -190,7 +190,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 /*--header flex---*/.flex-second{
-  margin-right: 93px;
+ /* margin-right: 93px;
 }
 .list-alignment{
   display: flex;
@@ -219,7 +219,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 50px;
 }
 /*  -------------маін--------  */
-.background{
+/*.background{
     background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)),
@@ -273,7 +273,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 /* -----------список приорітетів компані */
 
 
-.priority-flex{
+/*.priority-flex{
   width: calc((100% - 90px)/4);
 }
 .priority-flex li:last-child {
@@ -317,7 +317,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* -----img list  !!!додати до працівників bgc!!!---- */
 
-.bgc{
+/*.bgc{
   background-color: var(--color-button);
 }
 .link{ 
@@ -335,7 +335,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 /*---------фон на img-------------*/
-.text{
+/*.text{
   font-weight: 700;
     font-size: 14px;
     line-height: 0,85;
@@ -360,7 +360,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 column-gap: 30px
 }
 /* ------команда компанії------- */
-.nemes-list{
+/*.nemes-list{
   color: var(--title-text-color);
   font-size: 16px;
   font-weight: 500;
@@ -453,7 +453,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*--постийні кліенти ---*/
 
-.clients-list{
+/*.clients-list{
   display: flex;
   gap: 30px;
 }
@@ -512,7 +512,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 /* --------------підвал ----------------*/
-.box-address{
+/*.box-address{
   background-color: var(--second-color);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -664,7 +664,7 @@ background-color: #188CE8;
 
 
 /* -------------сторинка портфоліо--------- */
-.button-filter{
+/*.button-filter{
   background-color: var(--color-button);
   color: var(--title-text-color);
   font-size: 16px;
@@ -788,7 +788,7 @@ box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12),
 /*---------------модалка------------*/
 
 
-.backdrop{
+/*.backdrop{
   width: 100%;
   height: 100%;
   top: 0px;
@@ -1012,4 +1012,4 @@ font-weight: 400;
     transition:
         background 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
